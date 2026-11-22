@@ -46,7 +46,7 @@ Supported formats: **JPEG, PNG, WebP**.
 
 ```bash
 cd /path/to/nextcloud/apps
-git clone https://github.com/YOUR_GITHUB_USERNAME/metascrub.git
+git clone https://github.com/pratik-mahalle/metascrub.git
 cd metascrub && npm ci && npm run build
 sudo -u www-data php ../../occ app:enable metascrub
 ```

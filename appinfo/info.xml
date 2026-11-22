@@ -23,14 +23,14 @@ Supports JPEG, PNG and WebP. No external tools, services or PHP extensions requi
 	]]></description>
 	<version>1.0.0</version>
 	<licence>agpl</licence>
-	<author mail="you@example.com" homepage="https://github.com/YOUR_GITHUB_USERNAME">Your Name</author>
+	<author mail="mahallepratik683@gmail.com" homepage="https://github.com/pratik-mahalle">Pratik Mahalle</author>
 	<namespace>MetaScrub</namespace>
 	<category>files</category>
 	<category>security</category>
-	<website>https://github.com/YOUR_GITHUB_USERNAME/metascrub</website>
-	<bugs>https://github.com/YOUR_GITHUB_USERNAME/metascrub/issues</bugs>
-	<repository type="git">https://github.com/YOUR_GITHUB_USERNAME/metascrub.git</repository>
-	<screenshot>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/metascrub/main/screenshots/dialog.png</screenshot>
+	<website>https://github.com/pratik-mahalle/metascrub</website>
+	<bugs>https://github.com/pratik-mahalle/metascrub/issues</bugs>
+	<repository type="git">https://github.com/pratik-mahalle/metascrub.git</repository>
+	<screenshot>https://raw.githubusercontent.com/pratik-mahalle/metascrub/main/screenshots/dialog.png</screenshot>
 	<dependencies>
 		<php min-version="8.2"/>
 		<nextcloud min-version="33" max-version="35"/>
