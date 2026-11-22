@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ - SPDX-FileCopyrightText: 2026 Metadata Scrubber contributors
+ - SPDX-License-Identifier: AGPL-3.0-or-later
+ -->
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:noNamespaceSchemaLocation="../vendor/phpunit/phpunit/phpunit.xsd"
+		 bootstrap="../vendor/autoload.php"
+		 colors="true"
+		 failOnWarning="true"
+		 failOnNotice="true"
+		 failOnDeprecation="true"
+		 cacheDirectory=".phpunit.cache">
+	<testsuites>
+		<testsuite name="unit">
+			<directory>./Unit</directory>
+		</testsuite>
+	</testsuites>
+	<source>
+		<include>
+			<directory suffix=".php">../lib/Service</directory>
+		</include>
+	</source>
+</phpunit>

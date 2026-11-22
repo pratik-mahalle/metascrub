@@ -1,0 +1,34 @@
+{
+	"name": "metascrub/metascrub",
+	"description": "Remove GPS location, camera details and other hidden metadata from photos in Nextcloud Files",
+	"type": "project",
+	"license": "AGPL-3.0-or-later",
+	"require": {
+		"php": "^8.2"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^11.5",
+		"nextcloud/ocp": "dev-stable33"
+	},
+	"autoload": {
+		"psr-4": {
+			"OCA\\MetaScrub\\": "lib/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"OCA\\MetaScrub\\Tests\\": "tests/"
+		}
+	},
+	"scripts": {
+		"test:unit": "phpunit -c tests/phpunit.xml",
+		"lint": "find . -name '*.php' -not -path './vendor/*' -not -path './node_modules/*' -print0 | xargs -0 -n1 php -l"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"sort-packages": true,
+		"platform": {
+			"php": "8.2"
+		}
+	}
+}
